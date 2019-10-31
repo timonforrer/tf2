@@ -1,0 +1,12 @@
+ul.grid,
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -2rem!important;
+
+  & > * {
+    flex-basis: 20rem;
+    flex-grow: 1;
+    margin: 2rem;
+  }
+}
