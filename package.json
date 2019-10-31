@@ -1,0 +1,32 @@
+{
+  "name": "tf2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "@zeit/next-sass": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "fontfaceobserver": "^2.1.0",
+    "next": "^9.1.1",
+    "node-sass": "^4.12.0",
+    "prismic-javascript": "^2.1.1",
+    "prismic-reactjs": "^1.1.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-inlinesvg": "^1.1.7",
+    "react-lazy-hydration": "0.0.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.5",
+    "postcss-custom-properties": "^9.0.2"
+  }
+}
