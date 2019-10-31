@@ -1,0 +1,10 @@
+.stack {
+  & > * { display: block; }
+  &--narrowest { & > * ~ * { margin-top: 0.25rem } }
+  &--narrower { & > * ~ * { margin-top: 0.5rem } }
+  &--narrow { & > * ~ * { margin-top: 0.75rem } }
+  &--regular { & > * ~ * { margin-top: 1rem } }
+  &--wide { & > * ~ * { margin-top: 2rem } }
+  &--wider { & > * ~ * { margin-top: 4rem } }
+  &--widest { & > * ~ * { margin-top: 8rem } }
+}
