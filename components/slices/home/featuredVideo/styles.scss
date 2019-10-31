@@ -1,0 +1,48 @@
+.video-section {
+  color: #f8f9f6;
+  color: var(--c-tertiary-300);
+  padding-top: 3rem;
+  position: relative;
+
+  &__content {
+    position: relative;
+    z-index: 1;
+  }
+
+  h2 { color: inherit; }
+
+  &__background-wrapper {
+    top: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    z-index: 0;
+    max-height: 100%;
+    max-height: calc(100% + 6rem);
+    overflow: hidden;
+
+    & picture {
+      display: block;
+      height: 100%;
+      overflow: hidden;
+      position: relative;
+      z-index: -1;
+    }
+
+    & img {
+      min-height: 20rem;
+      object-fit: cover;
+    }
+
+    &::before {
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(115.2deg, #000000 0%, rgba(0, 0, 0, 0.78) 47.61%, rgba(0, 0, 0, 0) 100%);
+      content: '';
+      pointer-events: none;
+      position: absolute;
+    }
+  }
+}
