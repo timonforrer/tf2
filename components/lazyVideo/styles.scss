@@ -1,0 +1,22 @@
+.lazy-video {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+
+  & video {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    z-index: 1;
+  }
+
+  & noscript video {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+  }
+}
