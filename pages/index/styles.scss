@@ -1,0 +1,40 @@
+section.above-the-fold {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  height: 100vh;
+
+  & .container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+section:nth-child(2) { margin-top: calc(-1 * (2vw + 6rem)); }
+
+// section:last-child { margin-bottom: 2rem; }
+
+.brand {
+  & > svg {
+    height: 60px;
+    max-width: 100%;
+    width: auto;
+  }
+
+  & > * {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  & > * ~ * {
+    margin-top: 2rem;
+  }
+}
+
+.contact {
+  padding: 4rem 0;
+  background-color: #93e683;
+  background-color: var(--c-tertiary-100)
+}
