@@ -1,0 +1,53 @@
+.decorated-image {
+
+  position: relative;
+
+  &__content {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    z-index: 2;
+  }
+
+  &__wrapper {
+
+    border-radius: 5px;
+    box-shadow: var(--soft-shadow);
+    position: relative;
+    overflow: hidden;
+
+    & img {
+      position: relative;
+      z-index: 1;
+    }
+
+    &::before {
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.1) 30.86%, rgba(0, 0, 0, 0) 100%);
+      content: '';
+      height: 100%;
+      pointer-events: none;
+      position: absolute;
+      width: 100%;
+      z-index: 2;
+    }
+  }
+
+  & svg {  position: absolute; }
+
+  & svg:first-child {
+    right: 0;
+    transform: translate(50%, -50%);
+    z-index: 3;
+  }
+
+  & svg:last-child {
+    bottom: 0;
+    transform: translate(-50%, 50%);
+  }
+}
