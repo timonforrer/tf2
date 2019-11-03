@@ -1,8 +1,6 @@
 import React from 'react'
-import IconLoader from '../components/iconLoader';
+import Icon from '../components/icon'
 
-const IconTest = () => (
-  <IconLoader icon="x" />
-)
+const IconTest = () => <Icon name="activity" width={32} height={32} color="white" circle/>
 
 export default IconTest
