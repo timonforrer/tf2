@@ -50,7 +50,7 @@ class Home extends Component {
           <section className="contact">
             <div className="container">
               <Stack wider>
-                <h2>Interessiert?<br/>Lass uns zusammen&shy;arbeiten.</h2>
+                <h2>Interessiert?<br/>Lassen Sie uns zusammen&shy;arbeiten.</h2>
                 <ContactForm />
               </Stack>
             </div>
