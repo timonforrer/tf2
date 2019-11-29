@@ -88,8 +88,8 @@ const ContactForm = () => {
       <Stack wide>
       <div className="contact-form__section">
         <div className="contact-form__description">
-          <h3>Deine Kontaktdaten</h3>
-          <p>Damit ich dich erreichen kann.</p>
+          <h3>Ihre Kontaktdaten</h3>
+          <p>Damit ich Sie erreichen kann.</p>
         </div>
 
         <div role="group" className="contact-form__inputs">
@@ -135,14 +135,14 @@ const ContactForm = () => {
 
       <div className="contact-form__section">
         <div className="contact-form__description">
-          <h3>Dein Projekt</h3>
+          <h3>Ihr Projekt</h3>
           <p>
-            Beschreibe hier dein Projekt in ein paar wenigen Sätzen. Was ist das Ziel? Welche Rahmenbedingungen sind zu
+            Beschreiben Sie hier Ihr Projekt in ein paar wenigen Sätzen. Was ist das Ziel? Welche Rahmenbedingungen sind zu
             beachten?
           </p>
         </div>
         <div>
-          <label htmlFor="message">Deine Nachricht</label>
+          <label htmlFor="message">Ihre Nachricht</label>
           <textarea
             id="message"
             cols="30"
@@ -157,7 +157,7 @@ const ContactForm = () => {
       <div className="contact-form__section">
 
         <Stack narrow className="contact-form__submit-section">
-          <p>Bitte fülle alle Felder aus</p>
+          <p>Bitte füllen Sie alle Felder aus</p>
           <Button disabled={status.submitting} type="submit">
           {!status.submitting
             ? !status.submitted
