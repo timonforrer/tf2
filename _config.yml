@@ -19,7 +19,7 @@ defaults:
     key: ''
 - scope:
     path: ''
-    type: '["pages", "posts"]'
+    type: *
   values:
     language: de
 - scope:
