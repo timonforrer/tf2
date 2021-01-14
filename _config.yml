@@ -16,7 +16,7 @@ defaults:
     path: ''
     type: languages
   values:
-    lang: ''
+    key: ''
 - scope:
     path: ''
     type: pages
