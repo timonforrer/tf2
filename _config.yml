@@ -4,7 +4,7 @@ timezone: Europe/Berlin
 collections:
   languages:
     title: Languages
-    output: true
+    output: false
   posts:
     title: Posts
     output: true
