@@ -19,7 +19,12 @@ defaults:
     key: ''
 - scope:
     path: ''
-    type: *
+    type: posts
+  values:
+    language: de
+- scope:
+    path: ''
+    type: pages
   values:
     language: de
 - scope:
