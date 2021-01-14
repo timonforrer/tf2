@@ -19,14 +19,9 @@ defaults:
     key: ''
 - scope:
     path: ''
-    type: pages
+    type: ''
   values:
-    lang: de
-- scope:
-    path: ''
-    type: posts
-  values:
-    lang: de
+    language: de
 - scope:
     path: ''
     type: posts
