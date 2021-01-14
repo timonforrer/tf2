@@ -21,12 +21,12 @@ defaults:
     path: ''
     type: posts
   values:
-    language: de
+    language: deutsch
 - scope:
     path: ''
     type: pages
   values:
-    language: de
+    language: deutsch
 - scope:
     path: ''
     type: posts
