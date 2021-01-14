@@ -5,6 +5,7 @@ collections:
   languages:
     title: Languages
     output: false
+    key: test
   posts:
     title: Posts
     output: true
