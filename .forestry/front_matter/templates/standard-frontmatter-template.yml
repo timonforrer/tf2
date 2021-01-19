@@ -11,9 +11,9 @@ fields:
     will output all images starting from the first (1) to the third (3) in place.</em>
 - name: language
   type: select
-  default: ''
+  default: de
   config:
-    required: false
+    required: true
     options: []
     source:
       type: documents
@@ -21,3 +21,5 @@ fields:
       file: src/_data/languages.json
       path: 
   label: Language
+pages:
+- src/pages/test.md
