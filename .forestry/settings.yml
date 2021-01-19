@@ -10,6 +10,12 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: md
+- type: directory
+  path: src/_data
+  label: Site Data
+  create: all
+  match: "**/*"
+  new_doc_ext: json
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''

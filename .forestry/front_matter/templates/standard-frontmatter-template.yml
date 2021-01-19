@@ -1,4 +1,23 @@
 ---
 label: Standard Frontmatter Template
 hide_body: false
-fields: []
+fields:
+- name: associated_gallery
+  type: image_gallery
+  config: {}
+  label: Associated Gallery
+  description: Reference the images of the associated gallery inside your posts/pages
+    using this format:<br><br><strong>{{{ renderGallery 1, 3 }}}<br><br></strong><em>This
+    will output all images starting from the first (1) to the third (3) in place.</em>
+- name: language
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: site-data
+      file: src/_data/languages.json
+      path: 
+  label: Language
