@@ -21,3 +21,5 @@ fields:
       file: src/_data/languages.json
       path: 
   label: Language
+pages:
+- src/pages/test.md
