@@ -6,3 +6,6 @@ associated_gallery:
 language: de
 
 ---
+# Welcome to the first test blog
+
+{{{ renderGallery 1, 3 }}}
