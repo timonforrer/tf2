@@ -1,0 +1,22 @@
+{
+  "name": "tf3",
+  "version": "0.0.0",
+  "description": "Personal website of Timon Forrer",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timonforrer/tf2.git"
+  },
+  "author": "Timon Forrer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timonforrer/tf2/issues"
+  },
+  "homepage": "https://github.com/timonforrer/tf2#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}
