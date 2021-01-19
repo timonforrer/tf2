@@ -7,6 +7,6 @@ language: de
 title: Test
 
 ---
-# Welcome to the first test blog
+# Welcome to the first test blog Post
 
 {{{ renderGallery 1 3 }}}
