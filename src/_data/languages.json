@@ -1,12 +1,10 @@
-[
-  {
-    "key": "de",
+{
+  "de": {
     "label": "deutsch",
     "pathPrefix": ""
   },
-  {
-    "key": "en",
+  "en": {
     "label": "english",
     "pathPrefix": "en"
   }
-]
+}
