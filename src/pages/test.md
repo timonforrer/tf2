@@ -9,4 +9,4 @@ title: Test
 ---
 # Welcome to the first test blog
 
-{{{ renderGallery 1, 3 }}}
+{{{ renderGallery 1 3 }}}
