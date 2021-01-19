@@ -2,6 +2,11 @@
 label: Standard Frontmatter Template
 hide_body: false
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
 - name: associated_gallery
   type: image_gallery
   config: {}
