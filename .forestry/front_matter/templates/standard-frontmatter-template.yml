@@ -40,4 +40,4 @@ fields:
   label: Navigation Key
   description: Control, where in the navigation the site should be linked to
 pages:
-- src/pages/test.md
+- src/pages/**/*.md
