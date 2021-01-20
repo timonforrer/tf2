@@ -40,4 +40,5 @@ fields:
   label: Navigation Key
   description: Control, where in the navigation the site should be linked to
 pages:
-- src/pages/**/*.md
+- src/pages/home/index.de.md
+- src/pages/home/index.en.md
