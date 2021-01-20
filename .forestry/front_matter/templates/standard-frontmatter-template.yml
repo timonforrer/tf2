@@ -26,5 +26,18 @@ fields:
       file: src/_data/languages.json
       path: 
   label: Language
+- name: navkey
+  type: select
+  default: projects
+  config:
+    required: true
+    options: []
+    source:
+      type: documents
+      section: site-data
+      file: src/_data/nav.json
+      path: 
+  label: Navigation Key
+  description: Control, where in the navigation the site should be linked to
 pages:
 - src/pages/test.md
