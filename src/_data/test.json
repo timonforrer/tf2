@@ -1,4 +1,8 @@
 [
-  { "title": "hi" },
-  { "title2": "hi2" }
+  {
+    "title2": "hi2"
+  },
+  {
+    "title": "hi"
+  }
 ]
