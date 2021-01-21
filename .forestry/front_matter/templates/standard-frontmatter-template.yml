@@ -26,7 +26,7 @@ fields:
       file: src/_data/languages.json
       path: 
   label: Language
-- name: navkey
+- name: route_key
   type: select
   default: projects
   config:

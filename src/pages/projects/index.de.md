@@ -1,5 +1,5 @@
 ---
 language: de
-navkey: projects
+route_key: projects
 title: Home of projects
 ---
