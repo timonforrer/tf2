@@ -1,3 +1,3 @@
 module.exports = {
-  permalink: "{{ urlConstructor this nav }}",
+  permalink: "{{ urlConstructor this routes languages }}",
 }
