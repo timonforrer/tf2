@@ -1,6 +1,5 @@
 ---
 language: de
-route_key: home
 title: Welcome home
 associated_gallery: []
 
