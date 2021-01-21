@@ -1,6 +1,7 @@
 const slugify = require('slugify');
+const getFromArray = require('./getFromArray.js');
 
-module.exports = function(ctx, nav) {
+module.exports = function(ctx, routes, languages) {
   
   // construct urls in the following scheme:
   // "/en/projects/post-slug/index.html"
@@ -10,12 +11,13 @@ module.exports = function(ctx, nav) {
 
   // get individual parts of url
   // 1. prefix certain languages with lang code
-  const prefix = nav['_prefix'][ctx.language];
-  // 2. get main part of url based on navkey
-  const main = nav[ctx.navkey][ctx.language];
-  // 3. create slug for subpages, return simple /index.html for overview pages
+  const prefix = languages[ctx.language].path_prefix;
+  // 2. get main part of url based on route_key
+  const route_item = getFromArray(routes, "title", ctx.route_key);
+  const main = route_item.path_fragment[ctx.language];
+  // 3. create slug for subpages, return nothing for overview pages
   const slug = isSubPage === true ? slugify(ctx.title, { lower: true }) : '';
-  
+
   // return actual url
   const url = `${prefix}/${main}/${slug}/index.html`;
   return url

@@ -1,0 +1,18 @@
+[
+  {
+    "title": "home",
+    "path_fragment": {
+      "de": "",
+      "en": ""
+    },
+    "show_in_nav": true
+  },
+  {
+    "title": "projects",
+    "path_fragment": {
+      "de": "projekte",
+      "en": "projects"
+    },
+    "show_in_nav": true
+  }
+]
