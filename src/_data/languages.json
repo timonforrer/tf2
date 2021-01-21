@@ -1,10 +1,10 @@
 {
   "de": {
     "label": "deutsch",
-    "pathPrefix": ""
+    "path_prefix": ""
   },
   "en": {
     "label": "english",
-    "pathPrefix": "en"
+    "path_prefix": "en"
   }
 }
