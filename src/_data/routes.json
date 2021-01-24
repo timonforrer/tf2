@@ -1,13 +1,5 @@
 [
   {
-    "title": "about",
-    "path_fragment": {
-      "de": "ueber",
-      "en": "about"
-    },
-    "show_in_nav": ""
-  },
-  {
     "title": "home",
     "path_fragment": {
       "de": "",
@@ -20,6 +12,14 @@
     "path_fragment": {
       "de": "projekte",
       "en": "projects"
+    },
+    "show_in_nav": true
+  },
+  {
+    "title": "about",
+    "path_fragment": {
+      "de": "ueber",
+      "en": "about"
     },
     "show_in_nav": true
   }
