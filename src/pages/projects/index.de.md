@@ -1,4 +1,4 @@
 ---
 language: de
-title: Home of projects
+title: Home of projects – DE
 ---
