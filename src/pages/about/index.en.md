@@ -1,7 +1,7 @@
 ---
 language: en
-title: index.en
-real_title: ''
+title: About – EN
+real_title: About Timon Forrer
 associated_gallery: []
 
 ---
