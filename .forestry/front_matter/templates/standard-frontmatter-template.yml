@@ -35,7 +35,6 @@ fields:
   label: Language
 pages:
 - src/pages/about/about-en.md
-- src/pages/about/uber-de.md
 - src/pages/home/index.de.md
 - src/pages/home/index.en.md
 - src/pages/projects/index.de.md
