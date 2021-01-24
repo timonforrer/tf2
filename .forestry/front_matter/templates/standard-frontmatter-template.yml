@@ -7,6 +7,13 @@ fields:
   config:
     required: false
   label: Title
+  description: Used to identify the file within the CMS
+- name: real_title
+  type: text
+  config:
+    required: false
+  label: Real Title
+  description: The actual title, that will be rendered in the final site
 - name: associated_gallery
   type: image_gallery
   config: {}
