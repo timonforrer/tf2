@@ -1,5 +1,13 @@
 [
   {
+    "title": "about",
+    "path_fragment": {
+      "de": "ueber",
+      "en": "about"
+    },
+    "show_in_nav": ""
+  },
+  {
     "title": "home",
     "path_fragment": {
       "de": "",
