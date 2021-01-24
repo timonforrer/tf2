@@ -1,7 +1,8 @@
 ---
 language: de
-title: Welcome home
+title: Home – DE
 associated_gallery: []
+real_title: ''
 
 ---
 # Hallo von der deutschen seite
