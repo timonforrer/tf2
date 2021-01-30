@@ -18,7 +18,7 @@ sections:
   match: "**/*"
   new_doc_ext: json
 upload_dir: src/_assets/uploads
-public_path: "/uploads"
+public_path: src/_assets/uploads
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
