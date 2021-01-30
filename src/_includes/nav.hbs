@@ -1,0 +1,5 @@
+<nav>
+  {{#each routes}}
+    <li><a href="/{{ lookup path_fragment ../language }}">{{ title }}</a></li>
+  {{/each}}
+</nav>
