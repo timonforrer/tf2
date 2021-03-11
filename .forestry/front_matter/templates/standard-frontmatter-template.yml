@@ -36,6 +36,7 @@ fields:
 pages:
 - src/pages/about/index.de.md
 - src/pages/about/index.en.md
+- src/pages/home/home-de.md
 - src/pages/projects/index.de.md
 - src/pages/projects/index.en.md
 - src/pages/projects/subpages/voltage-arc-band-website.de.md
