@@ -1,0 +1,16 @@
+---
+label: Home
+hide_body: false
+fields:
+- type: text
+  name: language
+  label: language
+- type: text
+  name: title
+  label: title
+- type: list
+  name: associated_gallery
+  label: associated_gallery
+- type: text
+  name: real_title
+  label: real_title
